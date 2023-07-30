@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 19px;
+}
+:root{
+  --bg-color:#242424;
+  --color-primary: hsl(255, 80%, 5%);
+  --text-white:#fff;
+}
+
+body{
+  background: var(--bg-color);
+  min-height: 100vh;
+  color:var(--text-white);
+  display: grid;
+  place-items: center;
+
+  
+}
